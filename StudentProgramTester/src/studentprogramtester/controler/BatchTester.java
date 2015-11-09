@@ -11,7 +11,7 @@ package studentprogramtester.controler;
  */
 
 
-//  Dumb change to check how github works
+
 import java.awt.Color;
 //import java.io.*;
 //import java.util.*;
