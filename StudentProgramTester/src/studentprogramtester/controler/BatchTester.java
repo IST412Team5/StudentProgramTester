@@ -10,6 +10,8 @@ package studentprogramtester.controler;
  * and open the template in the editor.
  */
 
+
+//  Dumb change to check how github works
 import java.awt.Color;
 //import java.io.*;
 //import java.util.*;
