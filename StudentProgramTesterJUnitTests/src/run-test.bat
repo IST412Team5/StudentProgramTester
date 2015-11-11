@@ -6,8 +6,8 @@ rem java org.junit.runner.JUnitCore DataObjectJUnitTest
 rem now test utility class
 rem java org.junit.runner.JUnitCore UtilityJUnitTest
 
-javac -d C:\Working\ist412\StudentProgramTester\StudentProgramTesterJUnitTests\src *.java
-javac -d C:\Working\ist412\StudentProgramTester\StudentProgramTesterJUnitTests\src UtilityJUnitTest.java
+javac -d \\up.ist.local\Users\mtb137\Documents\NetBeansProjects\spt\StudentProgramTester\StudentProgramTesterJUnitTests\src *.java
+javac -d \\up.ist.local\Users\mtb137\Documents\NetBeansProjects\spt\StudentProgramTester\StudentProgramTesterJUnitTests\src UtilityJUnitTest.java
 
 echo testing Configuration items
 java org.junit.runner.JUnitCore ConfigurationItemsTest
