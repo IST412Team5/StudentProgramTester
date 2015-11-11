@@ -71,4 +71,35 @@ public class UtilityJUnitTest
 		System.out.println("Test6: checking a string tht will not be the correct result  = " + result);
 		assertFalse(result.equals(expectedResult));
 	}	
+        
+        // test that a non-user does not authenticate
+        @Test
+        public void AuthenticateUserTest()
+        {
+            // Arrange
+            String strUser = "NotAUser";
+            String strPassword = "BadPassword";
+            // act
+            System.out.println("Testing if a non - user is authenticated");
+            Boolean bAuthenticated = studentprogramtester.Utility.AuthenticateUser(strUser, strPassword);
+            System.out.println("Result: " + bAuthenticated.toString());
+            
+            //assert
+           assertFalse(bAuthenticated);
+        }
+        
+        @Test
+        public void AuthenticateUserTestTrue()
+        {
+            // Arrange
+            String strUser = "bob";
+            String strPassword = "abc";
+            // act
+            System.out.println("Testing if a user is authenticated");
+            Boolean bAuthenticated = studentprogramtester.Utility.AuthenticateUser(strUser, strPassword);
+            System.out.println("Result: " + bAuthenticated.toString());
+            
+            //assert
+           assertTrue(bAuthenticated);
+        }        
 }
