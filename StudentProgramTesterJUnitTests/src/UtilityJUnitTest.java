@@ -59,7 +59,7 @@ public class UtilityJUnitTest
 		String expectedResult = "cba";
 		this.setupTest();
 		String result = studentprogramtester.Utility.reverseString(strings[0]);
-		System.out.println("Test5: Reversing String cba should be abc result = " + result);
+		System.out.println("Test5: Reversing String abc should be cba result = " + result);
 		assertTrue(result.equals(expectedResult));
 	}
 	@Test

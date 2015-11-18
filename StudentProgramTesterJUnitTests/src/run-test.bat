@@ -8,6 +8,10 @@ rem java org.junit.runner.JUnitCore UtilityJUnitTest
 
 javac -d \\up.ist.local\Users\mtb137\Documents\NetBeansProjects\spt\StudentProgramTester\StudentProgramTesterJUnitTests\src *.java
 javac -d \\up.ist.local\Users\mtb137\Documents\NetBeansProjects\spt\StudentProgramTester\StudentProgramTesterJUnitTests\src UtilityJUnitTest.java
+echo on
+echo ***********************************
+Echo starting test
+echo ***********************************
 
 echo testing Configuration items
 java org.junit.runner.JUnitCore ConfigurationItemsTest
@@ -15,7 +19,8 @@ java org.junit.runner.JUnitCore ConfigurationItemsTest
 echo testing DataObject
 java org.junit.runner.JUnitCore DataObjectJUnitTest
 
-
-
 Echo testing utility class
 java org.junit.runner.JUnitCore UtilityJUnitTest
+
+Echo Testing Smart Button
+java org.junit.runner.JUnitCore SmartButtonTest
