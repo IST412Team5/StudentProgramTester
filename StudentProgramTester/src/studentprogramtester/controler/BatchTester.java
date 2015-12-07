@@ -63,7 +63,7 @@ public class BatchTester {
 				System.out.println(
 						" we are setting the classpath at BatchTester.java line 62. this should probably be moved");
 				r.setClsPath(r.pathToFile + "bin\\" + className + r.nme);
-				r.setStdPath(r.srcPath + "\\" + r.nme);
+				r.setStdPath("G:\\target\\src-output\\" + r.nme);
                                 
 				//r.setInputFileStub(r.stdPath + "\\input");
 				r.setOutFileName(r.stdPath + "\\output-" + r.nme + ".txt");

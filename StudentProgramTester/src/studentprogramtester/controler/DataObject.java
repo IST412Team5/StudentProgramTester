@@ -60,7 +60,7 @@ public class DataObject {
 
     private void initializeDataObject() {
 
-        CI = new ConfigurationItems("Config.txt", Utility.getConfigItem("MainFile", "C:\\work\\"), "args.txt", "input.txt", Utility.getConfigItem("MainFile", "C:\\work\\"), "input.txt", "C;\\work\\java\\bin\\");
+        CI = new ConfigurationItems("Config.txt", "g:\\target", "args.txt", "input.txt", "g:\\target\\", "input.txt", "g:\\target\\bin\\");
         // these can be pulled from a database later
         numbr = 0;
         nme = "";

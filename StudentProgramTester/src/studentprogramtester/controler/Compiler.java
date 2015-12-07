@@ -96,7 +96,7 @@ public class Compiler
 
       
       // all this is doing is changing the dir, can we approach this in a different way using a value in our Data Object? -mh
-      File nwd = TestTools.cd(cwd, studentPath);
+      File nwd = TestTools.cd(cwd, "G:\\target\\src-output\\" + studentPath);
       
       System.out.println("(Compiler.java line 88)new working directory: " + nwd.toString()); 
       String studentPathName = nwd.getAbsolutePath();
